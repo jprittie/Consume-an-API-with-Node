@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jshint"
   },
   "author": "",
   "license": "MIT",
@@ -14,5 +14,6 @@
     "jade": "^1.11.0",
     "moment": "^2.15.1",
     "twitter": "^1.4.0"
-  }
+  },
+  "devDependencies": {}
 }
