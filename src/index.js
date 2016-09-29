@@ -86,10 +86,7 @@ var promiseUserTimeline = new Promise(function(resolve, reject) {
 		}
 
 		for (var i=0; i<tweets.length; i++) {
-			// Fix date format
-			//var formattedDate = moment
-
-			usertweetsjson = {
+  			usertweetsjson = {
 				tweetcontent: tweets[i].text,
 				retweets: tweets[i].retweet_count,
 				likes: tweets[i].favorite_count,
