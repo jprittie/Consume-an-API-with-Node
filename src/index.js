@@ -44,8 +44,7 @@ var client = new Twitter({
 //// Begin application /////////
 ////////////////////////////////
 
-// Instantiate variables
-var userdetailsjson, username, screenname, following, profileimage, usertweets, usertweetsjson, recentfriends, friendsjson, directmessages, messagesjson;
+
 
 // Set up server
 app.listen(3000, function() {
@@ -57,13 +56,12 @@ app.listen(3000, function() {
 // 1. Get profile information
 var promiseUsersShow = new Promise(function(resolve, reject) {
 	client.get('users/show', {user_id: '122143458'}, function(error, profile, response){
-		var userdetailsjson;
 
 		if (error) {
 			return reject(error);
 		}
 
-		 userdetailsjson = {
+		var userdetailsjson = {
 			username: profile.name,
 			screenname: profile.screen_name,
 			following: profile.friends_count,
