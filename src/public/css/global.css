@@ -2268,6 +2268,7 @@ a:hover .app--avatar {
   background: #e8f5fe;
   padding: 20px 15px;
   border-top: 1px solid #d4edfd;
+  display: none;
 }
 /* line 102, ../sass/global.sass */
 .app--tweet form,
