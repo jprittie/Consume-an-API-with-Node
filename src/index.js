@@ -1,5 +1,7 @@
 'use strict';
 
+//** Hello, Treehouse friends. Although this works, I have been told that it is not the optimal way to order the timing. So, sadly, at the moment, this is a mostly good example of how not to use promises with Express... I will update it when I have time.
+
 /////////////////////////////////////////////
 ///// Set up dependencies and templates /////
 /////////////////////////////////////////////
