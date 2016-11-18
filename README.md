@@ -11,7 +11,7 @@ Use Node and Twitter’s REST API to access your Twitter profile information, th
 * Authenticate your application instance from your server code. It’s a good idea to use an npm module for this part.
 * Make a template using Jade, Handlebars, or another JavaScript template engine for the main page.
 * Set up at least one Express route.
-* Populate three columns on your page with data from your Twitter profile: your 5 most recent tweets; your 5 most recent friends and your 5 most recent private messages.
+* Populate three columns on your page with data from your Twitter profile: your 5 most recent tweets, your 5 most recent friends and your 5 most recent private messages.
 * Each rendered result must include all of the information seen in the sample layout:
   * Tweets column: message content, # of retweets, # of likes, date tweeted
   * Friends column: profile image, real name, screen name
