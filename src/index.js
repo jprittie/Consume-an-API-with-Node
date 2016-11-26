@@ -48,7 +48,6 @@ var client = new Twitter({
 ////////////////////////////////
 
 
-
 // Set up server
 app.listen(3000, function() {
 	console.log("The frontend server is running on port 3000!");
