@@ -18,6 +18,7 @@ Use Node and Twitter’s REST API to access your Twitter profile information, th
   * Direct messages column: Message body, message date, message time
 * Include your personal Twitter name and profile image at the top of the screen.
 
-**NB:** I currently don't have a way to demonstrate this project without putting my Twitter access keys on GitHub, which I would rather not do! In the meantime, here is a handy screenshot] of the finished project, so you can get an idea of what it looks like.
+###Demo:
+I currently don't have a way to demonstrate this project without putting my Twitter access keys on GitHub, which I would rather not do! In the meantime, here is a handy screenshot of the finished project, so you can get an idea of what it looks like.
 
 ![screenshot](./Project7.png)
