@@ -1,8 +1,6 @@
 ##Twitter interface with Node, Express and Jade
 *Project 7 of Treehouse Full Stack JavaScript course*
 
-**NB:** I currently don't have a way to demonstrate this project without putting my Twitter access keys on GitHub, which I would rather not do! In the meantime, here is a handy ![screenshot](./Project7.png) of the finished project, so you can get an idea of what it looks like.
-
 ###Project objectives:
 Use Node and Twitter’s REST API to access your Twitter profile information, then render the data to a user via Jade templates and an Express route. Overall, the project offers some key takeaways:
 * Server-side communication with APIs offers many more options and greater access to data, but it also require stricter authentication methods.
@@ -19,3 +17,7 @@ Use Node and Twitter’s REST API to access your Twitter profile information, th
   * Friends column: profile image, real name, screen name
   * Direct messages column: Message body, message date, message time
 * Include your personal Twitter name and profile image at the top of the screen.
+
+**NB:** I currently don't have a way to demonstrate this project without putting my Twitter access keys on GitHub, which I would rather not do! In the meantime, here is a handy screenshot] of the finished project, so you can get an idea of what it looks like.
+
+![screenshot](./Project7.png)
