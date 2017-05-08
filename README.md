@@ -6,7 +6,7 @@ Use Node and Twitter’s REST API to access your Twitter profile information, th
 * Server-side communication with APIs offers many more options and greater access to data, but it also requires stricter authentication methods.
 * The ability to look at a layout and see the data behind it is an essential skill for full-stack developers. Provided HTML and CSS starter files show what the final project should look like. Replace the example data with your own information, which you grab directly from Twitter's API. Write server-side templates to render HTML to match the mockup.
 
-#### Specific requirements:
+### Specific requirements:
 * Create a Twitter app through Twitter’s developer portal and get the needed API keys.
 * Authenticate your application instance from your server code. It’s a good idea to use an npm module for this part.
 * Make a template using Jade, Handlebars, or another JavaScript template engine for the main page.
